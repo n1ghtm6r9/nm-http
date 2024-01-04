@@ -1,4 +1,4 @@
-import type { ProxyDto } from '../dto';
+import type { ProxyDto } from '@nmxjs/types';
 
 export interface IRequestOptions {
   url: string;

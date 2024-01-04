@@ -3,8 +3,9 @@ import { SocksProxyAgent } from 'socks-proxy-agent';
 import { HttpsProxyAgent } from 'https-proxy-agent';
 import { Inject, Injectable, Logger } from '@nestjs/common';
 import { parseJson, sleep } from '@nmxjs/utils';
+import { ProxyTypeEnum } from '@nmxjs/types';
 import { redisServiceKey, IRedisService } from '@nmxjs/redis';
-import { IRequestResult, IExtendRequestOptions, ProxyTypeEnum } from '../interfaces';
+import { IRequestResult, IExtendRequestOptions } from '../interfaces';
 import { httpCachePrefix } from '../constants';
 
 @Injectable()

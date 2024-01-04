@@ -1,4 +1,4 @@
-import type { ProxyDto } from '../dto';
+import type { ProxyDto } from '@nmxjs/types';
 import { IOnRequestOptions } from './IOnRequestOptions';
 
 export interface IOnRequestResult extends IOnRequestOptions {

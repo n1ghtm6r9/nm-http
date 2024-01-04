@@ -1,5 +1,4 @@
 export * from './IHttpClient';
-export * from './ProxyTypeEnum';
 export * from './IRequestOptions';
 export * from './IRequestResult';
 export * from './IOnRequestOptions';
