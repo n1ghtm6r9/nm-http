@@ -93,6 +93,19 @@
     uuid "^9.0.1"
     yaml "^2.3.4"
 
+"@nmxjs/utils@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@nmxjs/utils/-/utils-1.0.5.tgz#aab3b5d4ff43dd0e52180e01a295cc3707e52086"
+  integrity sha512-brwKlH/iIWdkY0v+xkhM7nRRSs/CgrHcgNkbtHy8Jsqvo8BzqSaBrBgsxHGFuo3sw/vbA/6dWS/PqAVW/SJNSg==
+  dependencies:
+    "@nmxjs/constants" "^1.0.1"
+    "@nmxjs/types" "^1.0.6"
+    big.js "^6.2.1"
+    moment "^2.29.4"
+    rxjs "^7.8.1"
+    uuid "^9.0.1"
+    yaml "^2.3.4"
+
 "@nmxjs/validation@^1.0.6":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@nmxjs/validation/-/validation-1.0.6.tgz#44b621992b85a9a0f78c2c171fad835dcfca86b6"
