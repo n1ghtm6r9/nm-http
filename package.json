@@ -1,6 +1,6 @@
 {
   "name": "@nmxjs/http",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "@nestjs/common": "^10.3.0",
-    "@nmxjs/utils": "^1.0.7",
-    "@nmxjs/types": "^1.0.8",
+    "@nmxjs/utils": "^1.0.10",
+    "@nmxjs/types": "^1.0.9",
     "axios": "0.27.2",
     "https-proxy-agent": "^5.0.1",
     "object-hash": "^3.0.0",
