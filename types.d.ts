@@ -6,3 +6,12 @@ declare module '@nmxjs/redis' {
   }
   const redisServiceKey: string;
 }
+
+declare module '@nmxjs/types' {
+  type ProxyDto = any;
+  enum ProxyTypeEnum {
+    HTTPS,
+    SOCKS4,
+    SOCKS5,
+  }
+}
